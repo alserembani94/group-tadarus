@@ -1,3 +1,26 @@
+# Tadarus Group
+
+Welcome to Tadarus Group repository!
+
+## Development Guide
+
+You need to set up OAuth for Google and Github first before using the repository.
+
+[Guide to set up OAuth for Google](https://support.google.com/cloud/answer/6158849?hl=en)
+[Guide to set up OAuth for Github](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app)
+
+You will also need to generate your own NextAuth secret - it can be a random string, or you can generate yourself by running this command in your preferred terminal:
+
+```bash
+openssl rand -base64 32
+```
+
+After setting up, put all the Client ID and Client Secret into your `.env.local`. All the keys needed can be obtained from `.env.example`.
+
+Now, you can run your app!
+
+---
+
 ## MVP
 Listing all the features I aim to create -
 
